@@ -1,17 +1,16 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 
-/* Misc */
-console.clear();
-
 /* Initialize client */
 const client = new Client({
     intents: [
+      GatewayIntentBits.GuildMembers,
+      GatewayIntentBits.GuildPresences,
       GatewayIntentBits.Guilds,
     ],
 });
 
-const boilerplateComponents = async () => {
-  await require('./util/boilerplateClient')(client);
+const statusComponents = async () => {
+  await require('./util/statusClient')(client);
 }
 
-boilerplateComponents();
+statusComponents();
