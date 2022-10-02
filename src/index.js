@@ -6,6 +6,7 @@ const client = new Client({
       GatewayIntentBits.GuildMembers,
       GatewayIntentBits.GuildPresences,
       GatewayIntentBits.Guilds,
+      GatewayIntentBits.GuildPresences
     ],
 });
 
