@@ -2,9 +2,6 @@ const { status, role_id } = require('../../config.json');
 
 module.exports = (client, oldPresence, newPresence) => {
 
-    // bot check because bots have different ids and owner ids
-  if(newPresence.guild.ownerId != newPresence.userId) return; 
-
   if(!newPresence?.activities[0]?.state) return;
   if(oldPresence === newPresence) return;
 
