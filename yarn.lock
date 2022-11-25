@@ -178,10 +178,10 @@ busboy@^1.6.0:
   dependencies:
     streamsearch "^1.1.0"
 
-chalk-advanced@^1.0.1, chalk-advanced@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/chalk-advanced/-/chalk-advanced-1.0.3.tgz#4b2787d218279fb1c405924dd227f03c06066d8d"
-  integrity sha512-07BmhVb2y6ywsDKAI8PuNdV0MhTQSBBboc2PpXLPCQIyUSeqO4VlzvG+34Coe2yY6tVxwkUDffWxRjT6q9rqcA==
+chalk-advanced@^1.0.1, chalk-advanced@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/chalk-advanced/-/chalk-advanced-1.0.4.tgz#3824d917a3b83ae36f0d87b31951541bd5e9d411"
+  integrity sha512-4sl667QrZA4nTlmnBjcpssF7nNzSkZOe/J8r2wz1Z7xHxdoX4e8DtPKAnKvTE6cK36FFG54UijeAAv+sZFuSmQ==
   dependencies:
     chalk-advanced "^1.0.1"
 
